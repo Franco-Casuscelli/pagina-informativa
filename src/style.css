@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+#inicio {
+  z-index: -100;
+  height: calc(100vh);
+  width: 100%;
+  background: linear-gradient(165deg, #19b486 60%, white 40%);
+  filter: blur(1px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#content h2 {
+  margin-top: 100px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#subtitulo {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+#navbar {
+  color: black;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  background-color: #aae4d2;
+}
+#secciones h2,
+h3 {
+  text-decoration: none;
+  margin-left: 20px;
+  display: inline-block;
+}
+#secciones h2 a {
+  color: black;
+  text-decoration: none;
+}
+#secciones h3 a {
+  color: black;
+  text-decoration: none;
+}
+.fa-angle-double-down {
+  color: #ececece5;
+  font-size: 30px;
+  position: relative;
+  top: 280px;
+}
+#img_fondo {
+  margin-top: 40px;
+  position: absolute;
+  z-index: -100;
+  top: calc(85vh);
+  left: 0;
+  width: 0;
+  height: 0;
+  border-right: calc(100vh / 8) solid transparent;
+  border-top: 90px solid transparent;
+  border-left: 160px solid transparent;
+  border-bottom: 350px solid #67b9b5;
+  transform: rotate(206deg);
+}
+#segundo_bloque {
+  overflow: hidden;
+  margin-top: calc(65vh);
+}
+#quienes-somos {
+  text-align: center;
+}
+#texto-quienes-somos {
+  color: black;
+  font-size: 17px;
+  text-align: center;
+}
+#tercer-bloque {
+  width: 100%;
+  margin-top: 150px;
+}
+#caja1 {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 70px;
+  width: 70px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#caja2 {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 70px;
+  width: 70px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#caja3 {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 70px;
+  width: 70px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#caja4 {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 70px;
+  width: 70px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#texto_caja1 div,
+p {
+  display: inline-block;
+}
+#texto_caja2 div,
+p {
+  display: inline-block;
+}
+#texto_caja3 div,
+p {
+  display: inline-block;
+}
+#texto_caja4 div,
+p {
+  display: inline-block;
+}
+p {
+  color: black;
+}
+#info-servicios {
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  text-align: center;
+}
+#cuarto-bloque {
+  margin-top: 200px;
+}
+label {
+  color: black;
+}
+input {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  height: 20px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  width: 80%;
+}
+textarea {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  height: 70px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  width: 85%;
+}
+#consulta_nombre {
+  justify-content: center;
+  text-align: center;
+}
+#consulta_email {
+  justify-content: center;
+  text-align: center;
+}
+#consulta_telefono {
+  justify-content: center;
+  text-align: center;
+}
+#consulta_text_area {
+  justify-content: center;
+  text-align: center;
+}
+#infos {
+  color: black;
+  position: relative;
+  left: 30px;
+}
+#espacio {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#correo {
+  z-index: -100;
+  position: relative;
+  bottom: 50px;
+  height: 200px;
+}
+#centrar_gif {
+  justify-content: center;
+  text-align: center;
+}
+#bloque-cosulta {
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+#numero {
+  margin-left: 10px;
+}
+#mail {
+  margin-left: 10px;
+}
+#dire {
+  margin-left: 10px;
+}
+#linea {
+  position: relative;
+  bottom: 7px;
+  transform: rotate(45deg);
+  width: 0px;
+  height: 100%;
+}
+#fondo_contactos {
+  margin-left: 40px;
+  margin-bottom: 30px;
+  left: 0;
+  background-color: #67b9b5;
+  z-index: -100;
+  height: 300px;
+  width: 300px;
+  transform: rotate(70deg);
+  position: absolute;
+}
